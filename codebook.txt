@@ -1,0 +1,71 @@
+This is the codebook for the tidy dataset "sorted_data.txt".  
+The original data was pulled from the Human Activity Recognition Using Smartphones Dataset Version 1.0.  
+Information on this dataset can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.  
+
+The variables in this dataset are means of the all mean and standard deviation measurements in the original dataset that have been grouped by subject and activity.  
+
+The variables are as follows:  
+
+1. activity  
+    WALKING  
+    WALKING_UPSTAIRS  
+    WALKING_DOWNSTAIRS  
+    SITTING  
+    STANDING  
+    LAYING  
+    
+2. subject  
+    1-30 .Number of the subject performing the test.  
+
+The following variables all contain both mean() and std() columns. They represent the mean of the mean() and std() columns from the original dataset
+    
+tBodyAcc-XYZ  
+  Body accelerometer signals in X, Y, and Z directions.
+     
+tGravityAcc-XYZ  
+  Gravity accelerometer signals in X, Y, and Z directions.
+     
+tBodyAccJerk-XYZ  
+  Derived accelerometer jerk signals in X, Y, and Z directions.
+
+tBodyGyro-XYZ
+  Body gyroscope signals in X, Y, and Z directions.
+        
+tBodyGyroJerk-XYZ
+  Derived gyroscopic jerk signals in X, Y, and Z directions.
+        
+tBodyAccMag
+  Derived magnitudes of body accelerometer signals calculated using Euclidian Norm.
+  
+tGravityAccMag
+  Derived magnitudes of gravity accelerometer signals calculated using Euclidian Norm.
+  
+tBodyAccJerkMag
+  Derived magnitudes of body accelerometer jerk signals calculated using Euclidian Norm.
+  
+tBodyGyroMag
+  Derived magnitudes of body gryoscope signals calculated using Euclidian Norm.
+  
+tBodyGyroJerkMag
+  Derived magnitudes of body gyroscopic jerk signals calculated using Euclidian Norm.
+  
+fBodyAcc-XYZ
+  Body accelerometer signals transformed to frequency domain via FFT.
+  
+fBodyAccJerk-XYZ
+  Body acceleromter jerk signals transformed to frequency domain via FFT.
+  
+fBodyGyro-XYZ
+  Body gyroscope signals transformed to frequency domain via FFT.
+  
+fBodyAccMag
+  Derived magnitudes of body accelerometer signals calculated using Euclidian Norm and transformed to frequency domain via FFT.
+  
+fBodyAccJerkMag
+  Derived magnitudes of body acceleromter jerk signals calculated using Euclidian Norm and transformed to frequency domain via FFT.
+fBodyGyroMag
+  Derived magnitudes of body gyroscope signals calculated using Euclidian Norm and transformed to frequency domain via FFT.
+  
+fBodyGyroJerkMag
+  Derived magnitudes of body gyroscopic jerk signals calculated using Euclidian Norm and transformed to frequency domain via FFT.
+
