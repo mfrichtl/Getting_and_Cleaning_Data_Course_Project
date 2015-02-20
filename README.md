@@ -5,14 +5,6 @@ This dataset was developed by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro G
 
 The script will generates a tiday dataset, output to "sorted_data.txt," that summarizes the Human Activity Recognition Using Smartphones Dataset by subject and activity, with mean and standard deviation X-, Y-, and Z-axis data collected from the smartphones.
 
-The variables in "sorted_data.txt" are:  
-1.  activity - The activity that was being performed.  
-2.  subject - The subject performing the activity, 1-30.  
-3.  meanX - The average of the X-axis data collected.  
-4.  meanY - The average of the Y-axis data collected.  
-5.  meanZ - The average of the Z-axis data collected.  
-6.  stdX - The standard deviation of the X-axis data collected.  
-7.  stdY - The standard deviation of the Y-axis data collected.  
-8.  stdZ - The standard deviation of the Z-axis data collected.
+The variables in "sorted_data.txt" are described in the file "codebook.txt."
 
-This is a tidy dataset because each row is an observation and each column is a variable.
+"sorted_data.txt" contains a tidy dataset because each row is an observation and each column is a variable.
